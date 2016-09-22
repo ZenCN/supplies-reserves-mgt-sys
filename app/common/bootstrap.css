@@ -1,0 +1,36 @@
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    font-family: Microsoft YaHei, '宋体', Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+
+.pd-10 .col-md-1, .pd-10 .col-md-2, .pd-10 .col-md-3, .pd-10 .col-md-4, .pd-10 .col-md-5, .pd-10 .col-md-6, .pd-10 .col-md-7, .pd-10 .col-md-8, .pd-10 .col-md-9, .pd-10 .col-md-10, .pd-10 .col-md-11, .pd-10 .col-md-12 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.btn-primary, .btn-primary:focus, .btn-primary:hover {
+    background-color: #2D3482;
+    border-color: #2D3482;
+}
+
+.btn-default, .btn-default:hover {
+    color: #2D3482;
+    border-color: #2D3482;
+}
+
+.btn-default.actived {
+    background-color: #2D3482;
+    border-color: #2D3482;
+    color: #fff;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.form-control {
+    border-radius: 0;
+}

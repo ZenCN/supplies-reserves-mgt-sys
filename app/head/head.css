@@ -1,0 +1,24 @@
+.head {
+    border-top: 6px solid #2D3482;
+    padding: 15px;
+}
+
+.head .search input {
+    border: 1px solid #2D3482;
+    border-right: 0;
+}
+
+.head .search .input-group-addon {
+    background-color: transparent;
+    border: 1px solid #2D3482;
+    border-right: 0;
+    border-left: 0;
+}
+
+.head .search input .input-group-addon .glyphicon {
+    color: #2D3482;
+}
+
+.head .btn {
+    font-weight: bolder;
+}
