@@ -17,8 +17,8 @@
             events: true
         });
 
-        $urlRouterProvider.when('', '/head');
-        $urlRouterProvider.otherwise('/head');
+        $urlRouterProvider.when('', '/index');
+        $urlRouterProvider.otherwise('/index');
 
         var resolve_dep = function (config) {
             return {
@@ -41,9 +41,10 @@
                 ])
             })
             .state('head.index', {
+                url: '/index',
                 controller: 'index_ctrl',
                 //templateUrl: 'index/index.html',
-                template: '<baidu-map options="mapOptions"></baidu-map>',
+                template: '<baidu-map options="mapOptions" ak="ak" offline="offlineOpts" on-map-loaded="loadMap(map)" class="test_class"></baidu-map>',
                 resolve: resolve_dep([
                     //'index/index.css',
                     'index/index_ctrl.js'

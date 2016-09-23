@@ -6,7 +6,7 @@
     'use strict';
 
     angular.module('app', [
-        'baiduMap',
+        'ngBaiduMap',
         'app.core',
         'app.layout',
         'app.widgets',
