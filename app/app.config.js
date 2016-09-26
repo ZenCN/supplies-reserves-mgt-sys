@@ -17,8 +17,8 @@
             events: true
         });
 
-        $urlRouterProvider.when('', '/index');
-        $urlRouterProvider.otherwise('/index');
+        $urlRouterProvider.when('', '/workbench');
+        $urlRouterProvider.otherwise('/workbench');
 
         var resolve_dep = function (config) {
             return {

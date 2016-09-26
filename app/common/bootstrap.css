@@ -15,6 +15,11 @@ body {
     padding-right: 10px !important;
 }
 
+.pd-5 .col-md-1, .pd-5 .col-md-2, .pd-5 .col-md-3, .pd-5 .col-md-4, .pd-5 .col-md-5, .pd-5 .col-md-6, .pd-5 .col-md-7, .pd-5 .col-md-8, .pd-5 .col-md-9, .pd-5 .col-md-10, .pd-5 .col-md-11, .pd-5 .col-md-12 {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
 .btn-primary, .btn-primary:focus, .btn-primary:hover {
     background-color: #2D3482;
     border-color: #2D3482;
