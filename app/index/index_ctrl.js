@@ -43,7 +43,7 @@
             markers: [{
                 longitude: longitude,
                 latitude: latitude,
-                icon: 'img/mappiont.png',
+                icon: 'index/mappiont.png',
                 width: 23,
                 height: 29,
                 title: '<strong>国家超级计算长沙中心仓库</strong>',
@@ -52,7 +52,7 @@
             }, {
                 longitude: 112.950999,
                 latitude: 28.17768,
-                icon: 'img/mappiont.png',
+                icon: 'index/mappiont.png',
                 width: 23,
                 height: 29,
                 title: '<strong>怪兽大学仓库</strong>',
