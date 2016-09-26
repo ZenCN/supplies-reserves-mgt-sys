@@ -43,10 +43,9 @@
             .state('head.index', {
                 url: '/index',
                 controller: 'index_ctrl',
-                //templateUrl: 'index/index.html',
-                template: '<baidu-map options="mapOptions" ak="ak" offline="offlineOpts" on-map-loaded="loadMap(map)" class="test_class"></baidu-map>',
+                templateUrl: 'index/index.html',
                 resolve: resolve_dep([
-                    //'index/index.css',
+                    'index/index.css',
                     'index/index_ctrl.js'
                 ])
             });

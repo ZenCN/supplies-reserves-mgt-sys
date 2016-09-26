@@ -1,0 +1,32 @@
+.map {
+    position: absolute !important;
+    width: 100%;
+    height: 100%;
+}
+
+.map strong {
+    color: #2D3482;
+}
+
+ul.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #2D3482;
+}
+
+ul.list a {
+    position: absolute;
+    right: 0;
+    padding: 0 3px;
+}
+
+ul.list label {
+    width: 43px;
+    text-align: right;
+}
+
+ul.list.tool-tip label {
+    width: 100px;
+    font-weight: normal;
+}
