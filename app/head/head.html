@@ -1,6 +1,6 @@
 <div class="row pd-10 head">
     <div class="col-md-4">
-        <img src="../app/head/logo.png">
+        <img src="../app/head/logo.png" ui-sref="head.index">
     </div>
     <div class="col-md-8" style="padding-top: 2px">
         <div class="col-md-5">
@@ -15,15 +15,20 @@
             </div>
         </div>
         <div class="col-md-7">
-            <a href="#" class="btn btn-default" role="button">我的工作台</a>
-            <a href="#" class="btn btn-default" role="button">系统管理</a>
-            <a href="#" class="btn btn-default" role="button">物资管理</a>
-            <a href="#" class="btn btn-default" role="button">计划管理</a>
-            <a href="#" class="btn btn-default" role="button">物流管理</a>
+            <a href="#" class="btn btn-default" ui-sref="head.workbench" ui-sref-active="actived"
+               role="button">我的工作台</a>
+            <a href="#" class="btn btn-default" ui-sref="head.system_mgt" ui-sref-active="actived"
+               role="button">系统管理</a>
+            <a href="#" class="btn btn-default" ui-sref="head.supplies_mgt" ui-sref-active="actived"
+               role="button">物资管理</a>
+            <a href="#" class="btn btn-default" ui-sref="head.planning_mgt" ui-sref-active="actived"
+               role="button">计划管理</a>
+            <a href="#" class="btn btn-default" ui-sref="head.logistic_mgt" ui-sref-active="actived"
+               role="button">物流管理</a>
         </div>
     </div>
 </div>
 
-<div ui-view>
+<div ui-view class="row">
 
 </div>
