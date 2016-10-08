@@ -7,6 +7,7 @@
 
     angular
         .module('app')
+
         .controller('workbench_ctrl', workbench_ctrl);
 
     workbench_ctrl.$inject = ['$scope'];

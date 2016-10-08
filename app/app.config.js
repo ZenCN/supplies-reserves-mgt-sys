@@ -54,6 +54,7 @@
             templateUrl: 'workbench/workbench.html',
             resolve: resolve_dep([
                 'workbench/workbench.css',
+                'bower_components/angular.plugins/angular-ui-calendar.js',
                 'workbench/workbench_ctrl.js'
             ])
         }).state('head.system_mgt', {

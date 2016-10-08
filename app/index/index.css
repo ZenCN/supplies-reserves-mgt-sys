@@ -31,4 +31,5 @@ ul.list label {
 ul.list.tool-tip label {
     width: 100px;
     font-weight: normal;
+    font-size: 14px;
 }

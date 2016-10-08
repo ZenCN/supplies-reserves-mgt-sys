@@ -2,7 +2,7 @@
     if (typeof exports === 'object' && typeof module === 'object')
         module.exports = factory(require("angular"));
     else if (typeof define === 'function' && define.amd)
-        define(["angular"], factory);
+        define(["../angular/angular"], factory);
     else {
         var a = typeof exports === 'object' ? factory(require("angular")) : factory(root["angular"]);
         for (var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];

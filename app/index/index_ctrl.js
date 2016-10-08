@@ -27,6 +27,13 @@
                 side: ['right', 'bottom', 'left', 'top'],
                 distance: 15,
                 contentCloning: true
+                /*trigger: 'custom',
+                 triggerOpen: {
+                 mouseenter: true
+                 },
+                 triggerClose: {
+                 click: true
+                 }*/
             });
         };
 
