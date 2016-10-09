@@ -54,8 +54,10 @@
             templateUrl: 'workbench/workbench.html',
             resolve: resolve_dep([
                 'workbench/workbench.css',
-                'bower_components/angular.plugins/angular-ui-calendar.js',
-                'workbench/workbench_ctrl.js'
+                'workbench/workbench_ctrl.js',
+                'workbench/calendar.directive/style.css',
+                'workbench/calendar.directive/directive.js',
+                '../bower_components/extend/moment.js'
             ])
         }).state('head.system_mgt', {
             url: '/system_mgt',

@@ -1,8 +1,8 @@
 <div class="col-md-3">
     <div class="panel panel-default">
         <div class="panel-heading">日历（我的个人信息）</div>
-        <div class="panel-body">
-            <div ui-calendar="uiConfig.calendar" class="span8 calendar" ng-model="eventSources"></div>
+        <div class="panel-body" style="padding: 15px 0;">
+            <div ng-calendar selected="day" class="calendar ng-isolate-scope"></div>
         </div>
     </div>
 </div>
@@ -10,7 +10,26 @@
     <div class="panel panel-default">
         <div class="panel-heading">我的工作任务</div>
         <div class="panel-body">
-            这是一个基本的面板
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value=""> 月度盘点
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value=""> 库房清洁
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value=""> 月末报表
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value=""> .............
+                </label>
+            </div>
         </div>
     </div>
 </div>

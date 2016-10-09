@@ -1,0 +1,107 @@
+div.calendar {
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: white;
+    border: solid 1px #cccccc;
+    width: 300px;
+    height: 259px;
+    margin: 0 auto;
+}
+
+div.calendar > div.header {
+    float: left;
+    width: 100%;
+    background: #2875c7;
+    height: 40px;
+    color: white;
+}
+
+div.calendar > div.header > * {
+    height: 40px;
+    line-height: 40px !important;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div.calendar > div.header > i {
+    float: left;
+    width: 15%;
+    font-size: 1.125em;
+    font-weight: bold;
+    position: relative;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+div.calendar > div.header > i.fa-angle-left {
+    text-align: left;
+}
+
+div.calendar > div.header > i.fa-angle-right {
+    text-align: right;
+    margin-left: -40px;
+}
+
+div.calendar > div.header > span {
+    float: left;
+    width: 70%;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: center;
+    color: inherit;
+}
+
+div.calendar > div.week {
+    float: left;
+    width: 100%;
+    border-top: solid 1px #cccccc;
+}
+
+div.calendar > div.week:first-child {
+    border-top: none;
+}
+
+div.calendar > div.week > span.day {
+    float: left;
+    width: 14.28571429%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-left: solid 1px #cccccc;
+    font-size: 0.75em;
+    text-align: center;
+    height: 30px;
+    line-height: 30px !important;
+    display: inline-block;
+    vertical-align: middle;
+    background: white;
+    cursor: pointer;
+    color: black;
+}
+
+div.calendar > div.week > span.day:first-child {
+    border-left: none;
+}
+
+div.calendar > div.week > span.day.today {
+    background: #E3F2FF;
+}
+
+div.calendar > div.week > span.day.different-month {
+    color: #C0C0C0;
+}
+
+div.calendar > div.week > span.day.selected {
+    background: #2875c7;
+    color: white;
+}
+
+div.calendar > div.week.names > span {
+    color: #2875c7;
+    font-weight: bold;
+}

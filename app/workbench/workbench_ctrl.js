@@ -16,7 +16,7 @@
         var vm = $scope.$parent;
 
         if ($.isEmptyObject(vm.workbench)) {
-
+            vm.day = moment();
         }
     }
 })();

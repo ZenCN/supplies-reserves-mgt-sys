@@ -45,10 +45,10 @@ body {
     color: #fff;
 }
 
-.btn {
-    border-radius: 0;
+label {
+    font-size: 14px;
 }
 
-.form-control {
-    border-radius: 0;
+.checkbox input[type=checkbox] {
+    margin-top: 4px;
 }
