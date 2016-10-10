@@ -1,3 +1,7 @@
+.container-fluid {
+    overflow: hidden;
+}
+
 .map {
     position: absolute !important;
     width: 100%;
